@@ -1,0 +1,12 @@
+#box{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+}
+#para{
+    color: white;
+}
+#btn{
+    margin-top: 10px;
+    color: green;
+}
