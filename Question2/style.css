@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+/* explaination */
+/* By default:
+
+Background is white
+
+Text is black
+
+If the dark-mode class is added:
+
+Background becomes black
+
+Text becomes white
+
+The transition makes the color changes smooth over 0.3 seconds. */
