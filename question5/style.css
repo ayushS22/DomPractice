@@ -1,0 +1,30 @@
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f0f0f0;
+    }
+
+    .counter-container {
+      text-align: center;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .count {
+      font-size: 48px;
+      margin: 20px;
+      display: inline-block;
+      min-width: 60px;
+    }
+
+    button {
+      font-size: 24px;
+      padding: 10px 20px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
