@@ -1,5 +1,5 @@
 function generateTable() {
-      // Get number of rows and columns
+      // Get number of rows and columns from below code
       const numRows = parseInt(document.getElementById('rows').value);
       const numCols = parseInt(document.getElementById('cols').value);
 
@@ -30,4 +30,5 @@ function generateTable() {
 
       // Append the table to the container
       container.appendChild(table);
+
     }
