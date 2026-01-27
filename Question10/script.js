@@ -7,7 +7,7 @@ function generateTable() {
       const container = document.getElementById('tableContainer');
       container.innerHTML = ""; // Clear previous table
 
-      // Validate input
+      // Validate input here
       if (isNaN(numRows) || isNaN(numCols) || numRows <= 0 || numCols <= 0) {
         container.innerHTML = "<p style='color:red;'>Please enter valid numbers greater than 0.</p>";
         return;
@@ -32,3 +32,4 @@ function generateTable() {
       container.appendChild(table);
 
     }
+
