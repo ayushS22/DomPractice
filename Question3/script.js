@@ -1,5 +1,5 @@
 const input = document.getElementById("input");
-const button = document.getElementById("btn");
+const button = document.getElementById("btn");//select button
 const unorderedlist = document.getElementById("list");
 
 // Add event listener to the button
@@ -15,3 +15,4 @@ button.addEventListener("click", ()=>{
      }
 
 });
+
