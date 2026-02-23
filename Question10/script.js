@@ -20,7 +20,7 @@ function generateTable() {
         const row = document.createElement('tr');
 
         for (let j = 0; j < numCols; j++) {
-          const cell = document.createElement('td');
+          const cell = document.createElement('td');//create td element
           cell.textContent = `Row ${i + 1}, Col ${j + 1}`;
           row.appendChild(cell);
         }
@@ -32,4 +32,5 @@ function generateTable() {
       container.appendChild(table);
 
     }
+
 
